@@ -34,7 +34,7 @@ pip install requests beautifulsoup4 colorama selenium
 
 ### Basic Command
 ```bash
-python query_param_extractor.py <URL>
+python qrawly.py <URL>
 ```
 
 ### Options
@@ -58,22 +58,22 @@ python query_param_extractor.py <URL>
 
 1. **Basic Crawl**
    ```bash
-   python query_param_extractor.py https://example.com
+   python qrawly.py https://example.com
    ```
 
 2. **Verbose Mode and Custom Depth**
    ```bash
-   python query_param_extractor.py https://example.com -v -d 3
+   python qrawly.py https://example.com -v -d 3
    ```
 
 3. **Output to JSON with Exclusions**
    ```bash
-   python query_param_extractor.py https://example.com -f json -o params.json -x logout settings
+   python qrawly.py https://example.com -f json -o params.json -x logout settings
    ```
 
 4. **Crawl with Selenium for JavaScript-heavy Sites**
    ```bash
-   python query_param_extractor.py https://example.com -s
+   python qrawly.py https://example.com -s
    ```
 
 ## Output
