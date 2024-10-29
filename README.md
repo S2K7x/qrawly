@@ -89,6 +89,3 @@ python qrawly.py <URL>
 
 ## License
 MIT License
-```
-
-This README provides clear guidance on installation, usage, and options, ensuring users can utilize all features effectively. The tool is now highly customizable and user-friendly. Let me know if you need further customization!
