@@ -1,6 +1,6 @@
 ### README.md
 
-```markdown
+
 # Query Parameter Extractor Tool
 
 ## Description
